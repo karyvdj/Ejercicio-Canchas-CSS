@@ -3,20 +3,40 @@
   <head>
     <meta charset="utf-8">
     <title>CANCHAS</title>
-    <link rel="stylesheet" href="assets/futbol.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/futbol.css">
+    <link rel="stylesheet" href="assets/css/basquetbol.css">
+    <link rel="stylesheet" href="assets/css/tenis.css">
   </head>
   <body>
     <header>
       <h1>Canchas deportivas</h1>
     </header>
-    <div class="botones">
-      <button type="button">Fútbol</button>
-      <button type="button">Basquetbol</button>
-      <button type="button">Tenis</button>
-    </div>
-    <div class="cancha">
 
-    </div>
+    <section class="botones">
+      <button id="botonFutbol" onclick="mostrarFutbol">Fútbol</button>
+      <button id="botonbBasquetbol" onclick="mostrarBasquetbol">Basquetbol</button>
+      <button id="botontTenis" onclick="mostrarTenis">Tenis</button>
+    </section>
+
+      <!-- <section id="futbol" class="canchas">
+        <div id="circuloIzq" class="circulo"></div>
+        <div id="porteriaIzq" class="porteria"></div>
+        <div id="lineaCentro" class="circulo"></div>
+        <div class="circulo"></div>
+        <div id="circuloDer" class="circulo"></div>
+        <div id="porteriaDer" class="porteria"></div>
+      </section> -->
+
+      <section id="basquetbol" class="canchas">
+        <div class="trapecio"></div>
+
+      </section>
+<!--
+      <section id="tenis" class="canchas">
+      </section> -->
+
     <script type="text/javascript" src="assets/main.js"></script>
   </body>
 </html>

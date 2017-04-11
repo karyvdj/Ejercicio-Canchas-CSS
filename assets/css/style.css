@@ -1,0 +1,18 @@
+body{
+  background: #CCCCCC;
+  font-family: Helvetica;
+}
+header{
+  background: #0C117D;
+  padding: 10px;
+  color: white;
+}
+h1{
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+}
+button{
+  margin:10px;
+  border-radius: 10px;
+  background: white;
+}

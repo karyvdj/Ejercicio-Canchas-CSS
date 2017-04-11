@@ -1,0 +1,42 @@
+#futbol{
+  width: 500px;
+  height: 300px;
+  background: #158239;
+  position: relative;
+}
+.porteria{
+  width: 70px;
+  height: 140px;
+  border: 2px solid white;
+  position: absolute;
+  margin-top: 70px;
+  background: #158239;
+}
+#porteriaDer{
+  position: absolute;
+  margin-left: 428px;
+}
+#lineaCentro{
+  width: 0px;
+  height: 300px;
+  border: 1px solid white;
+  position: absolute;
+  margin-left: 250px;
+}
+.circulo{
+  width: 70px;
+  height: 70px;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 213px;
+}
+#circuloDer{
+    position: absolute;
+    margin-left: 390px;
+}
+#circuloIzq{
+    position: absolute;
+    margin-left: 35px;
+}
