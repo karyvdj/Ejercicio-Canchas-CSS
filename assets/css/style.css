@@ -1,6 +1,6 @@
 body{
   background: #D3E8F3;
-  font-family: Helvetica;
+  font-family: Arial;
 }
 header{
   background: #087EBB;
@@ -10,13 +10,21 @@ header{
 h1{
   font-family: 'Pacifico', cursive;
   text-align: center;
+  font-size: 40px;
 }
 button{
-  margin:10px;
+  margin:20px;
   border-radius: 15px;
   background: white;
   height: 35px;
+  font-size: 20px;
+  color: #166CC7;
+  border:0;
 }
 .botones{
   margin-left: 35%;
+}
+img{
+  height: 70%;
+  margin-left: 15px;
 }
