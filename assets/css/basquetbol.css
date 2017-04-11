@@ -1,10 +1,47 @@
 #basquetbol{
-  width: 500px;
+  width: 600px;
   height: 300px;
-  background: #C89956;
+  background: #A57E32;
   position: relative;
+  margin: 0 auto;
 }
-
+.linea{
+  width: 0px;
+  height: 300px;
+  border: 1px solid #795100;
+  position: absolute;
+  margin-left: 300px;
+}
+.circulo{
+  width: 70px;
+  height: 70px;
+  border: 2px solid #795100;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 263px;
+}
+#Der{
+    position: absolute;
+    margin-left: 435px;
+}
+#Izq{
+    position: absolute;
+    margin-left: 90px;
+}
+.semicirculo{
+    width: 170px;
+    height: 250px;
+    border: 2px solid #795100;
+    position: absolute;
+    border-radius: 0 130px 130px 0;
+    margin-top: 22px;
+}
+#semiDer{
+  position: absolute;
+  margin-left: 426px;
+  transform: rotate(180deg);
+}
 /*.trapecio{
     width: 80px;
     height: 100px;

@@ -1,9 +1,9 @@
 body{
-  background: #CCCCCC;
+  background: #D3E8F3;
   font-family: Helvetica;
 }
 header{
-  background: #0C117D;
+  background: #087EBB;
   padding: 10px;
   color: white;
 }
@@ -13,6 +13,10 @@ h1{
 }
 button{
   margin:10px;
-  border-radius: 10px;
+  border-radius: 15px;
   background: white;
+  height: 35px;
+}
+.botones{
+  margin-left: 35%;
 }

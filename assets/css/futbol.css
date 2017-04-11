@@ -1,8 +1,9 @@
 #futbol{
   width: 500px;
   height: 300px;
-  background: #158239;
+  background: #0C7230;
   position: relative;
+  margin: 0 auto;
 }
 .porteria{
   width: 70px;
@@ -10,7 +11,7 @@
   border: 2px solid white;
   position: absolute;
   margin-top: 70px;
-  background: #158239;
+  background: #0C7230;
 }
 #porteriaDer{
   position: absolute;

@@ -1,6 +1,43 @@
 #tenis{
   width: 500px;
   height: 300px;
-  background: #99D72D;
+  background: #9ABE1F;
   position: relative;
+  margin: 0 auto;
+}
+.lineaCentro{
+  width: 0px;
+  height: 300px;
+  border: 1px solid white;
+  position: absolute;
+  margin-left: 250px;
+}
+.bloqueAncho{
+  width: 498px;
+  height: 40px;
+  border: 2px solid white;
+  position: absolute;
+}
+#abajo{
+  position: absolute;
+  margin-top: 256px;
+}
+.bloqueAlto{
+  width: 125px;
+  height: 212px;
+  border: 2px solid white;
+  position: absolute;
+  margin-top: 42px;
+}
+#derecha{
+  position: absolute;
+  margin-left: 373px;
+}
+#centro{
+  width: 244px;
+  height: 110px;
+  border: 2px solid white;
+  position: absolute;
+  margin-top:42px;
+  margin-left:127px;
 }
