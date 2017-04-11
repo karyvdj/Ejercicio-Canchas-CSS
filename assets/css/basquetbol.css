@@ -1,3 +1,4 @@
+
 #basquetbol{
   width: 600px;
   height: 300px;
@@ -7,7 +8,7 @@
 }
 .linea{
   width: 0px;
-  height: 300px;
+  height: 298px;
   border: 1px solid #795100;
   position: absolute;
   margin-left: 300px;
@@ -22,34 +23,55 @@
   margin-left: 263px;
 }
 #Der{
-    position: absolute;
-    margin-left: 435px;
+  position: absolute;
+  margin-left: 435px;
 }
 #Izq{
-    position: absolute;
-    margin-left: 90px;
+  position: absolute;
+  margin-left: 90px;
 }
 .semicirculo{
-    width: 170px;
-    height: 250px;
-    border: 2px solid #795100;
-    position: absolute;
-    border-radius: 0 130px 130px 0;
-    margin-top: 22px;
+  width: 170px;
+  height: 250px;
+  border: 2px solid #795100;
+  position: absolute;
+  border-radius: 0 130px 130px 0;
+  margin-top: 22px;
 }
 #semiDer{
   position: absolute;
   margin-left: 426px;
   transform: rotate(180deg);
 }
-/*.trapecio{
-    width: 80px;
-    height: 100px;
-    position: absolute;
-    margin-top: 50px;
-    transform: rotate(90deg);
-    border-color: 2px solid black;
-    border-right: 60px solid transparent;
-    border-left: 60px solid transparent;
-    border-bottom: 100px solid #428bca;
-}*/
+.trapecio{
+  width: 72px;
+  height: 130px;
+  position: absolute;
+  margin-top: 17px;
+  margin-left: 65px;
+  transform: rotate(90deg);
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+  border-bottom: 130px solid #795100;
+}
+.trapecioPeque{
+  width: 70px;
+  height: 128px;
+  position: absolute;
+  margin-top: 19px;
+  margin-left: 67px;
+  transform: rotate(90deg);
+  border-right: 28px solid transparent;
+  border-left: 28px solid transparent;
+  border-bottom: 128px solid #A57E32;
+}
+#trapecioDer{
+  transform: rotate(270deg);
+  position: absolute;
+  margin-left:403px;
+}
+#pequeDer{
+  transform: rotate(270deg);
+  position: absolute;
+  margin-left:407px;
+}
