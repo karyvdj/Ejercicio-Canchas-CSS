@@ -21,6 +21,9 @@ button{
   color: #166CC7;
   border:0;
 }
+button:hover{
+  background: #F9D611;
+}
 .botones{
   margin-left: 30%;
 }
@@ -33,6 +36,11 @@ img{
   margin-top: 50px;
   margin-left: 305px;
   position: absolute;
+  transition: 2s;
+}
+.imagen:hover{
+  margin-top: 100px;
+  margin-left: 105px;
 }
 .canchas{
   display: none;
