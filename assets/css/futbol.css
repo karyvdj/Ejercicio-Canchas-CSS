@@ -16,14 +16,14 @@
   position: absolute;
   margin-left: 428px;
 }
-#lineaCentro{
+.lineaCentro{
   width: 0px;
   height: 300px;
   border: 1px solid white;
   position: absolute;
   margin-left: 250px;
 }
-.circulo{
+.circuloCentro{
   width: 70px;
   height: 70px;
   border: 2px solid white;
